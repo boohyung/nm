@@ -1,0 +1,28 @@
+CS410 Advanced Software Systems : Assignment #2
+
+Author: Masaya Ando
+E-mail: mando@bu.edu
+Date  : September 28, 2014
+
+CS Undergrad Lab Mac§hine Name: duey (DELL PRECISION T1600)
+
+Programs: 
+	- getsections	 : A simple version of objdump
+	- getsyms	 : A simple version of nm 
+	- getsections_dl : A simple version of objdump that dynamically loads libobjdata library
+	- getsyms_dl	 : A simple version of nm that dynamically loads libobjdata library 
+
+Source Files:
+	- objsect.c		
+	- objsym.c	 
+	- getsections.c 
+	- getsyms.c 
+	- getsections_dl.c
+	- getsyms_dl.c
+	- stats.txt 
+	- Makefile 
+	- lib/
+		libobjdata.so
+		libobjdata.a 
+	- include/
+		libobjdata.h 
